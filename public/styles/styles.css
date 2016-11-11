@@ -1,0 +1,134 @@
+html {
+	font-family: 'Roboto', sans-serif;
+	color: #4e3e41;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   
+}
+.tilelayout {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: center;
+	padding: 20px;
+}
+.header {
+	font-size: 32pt;
+	text-align: center;
+}
+.header a {
+	text-decoration: none;
+	font-weight: bolder;
+	color: #4e3e41;
+}
+.redlogo {
+	color: #F40;
+}
+.searchform {
+	display: flex;
+	padding: 20px;
+}
+.searchform div input {
+	padding: 1em 3em 1em 1em; 
+	width: 100%;
+}
+.inputwrapper {
+	flex: 1;
+}
+.searchinput {
+	padding: .5em 1em; 
+	width: 100%;
+}
+.submitwrapper {
+	flex: 0;
+	padding: .5em 3em 1em 1em; 
+}
+.searchsubmit {
+  width: 115px;
+  height: 25px;
+  background: #3CF;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+  flex: 0;
+}
+.sectiontitle {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 18pt;
+	color: #F40;
+	padding: 5px 0 10px 0;
+}
+.moviedetails {
+	display: flex;
+}
+.movietile {
+	width: 195px;
+	text-align: center;
+}
+.movietile a {
+	color: #4e3e41;
+	text-decoration: none;
+}
+.movietile .title {
+	text-align: center;
+}
+.movietile .poster {
+	margin: 0 0 0 10px;
+}
+.poster {
+	order: 1;
+	margin: 10px;
+}
+.details {
+	order: 2;
+	padding: 20px;
+}
+.entrytype {
+	color: #F40;
+	font-weight: bold;
+}
+.details .title {
+	font-weight: bolder;
+	font-size: 32pt;
+}
+.details .alttitle {
+	font-size: 24pt;
+	color: #333;
+}
+.details .tagline {
+	font-style: italic;
+	font-size: 16pt;
+}
+.details .overview {
+
+}
+.details .genres {
+	text-decoration: none;
+}
+.genres ul {
+	list-style-position: inside;
+}
+.details .releasedate {
+
+}
+.details .runtime {
+
+}
+.details .revenue {
+
+}
+.details .rating {
+
+}
+.details .links {
+	text-decoration: none;
+	color: #3CF;
+}
